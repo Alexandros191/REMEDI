@@ -99,7 +99,7 @@ struct MedicationRingChartView: View {
     
     var body: some View {
         PieChartView(
-            data: [takenPercentage, 1 - takenPercentage], // You can customize the data as needed
+            data: [takenPercentage, 1 - takenPercentage], 
             title: "Medication Status",
             legend: "Consumption"
          
